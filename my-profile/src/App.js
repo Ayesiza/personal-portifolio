@@ -5,6 +5,10 @@ import Footer from './components/Footer';
 import About from './components/About';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavBar from './components/Navbar';
+import Contact from './components/Contact';
+import Skills from './components/Skills';
+import Works from './components/Works';
+
 
 function App() {
   return (
@@ -13,7 +17,10 @@ function App() {
       <NavBar/>
     <Switch>
       <Route exact path="/" component={Home}/>
-      <Route exact path="/about" component={About}/>
+      <Route  path="/about" component={About}/>
+      <Route path="/contact" component={Contact} />
+      <Route path="/skills" component={Skills} />
+      <Route path="/works" component={Works} />
     </Switch>
     <Footer />
     </div> 

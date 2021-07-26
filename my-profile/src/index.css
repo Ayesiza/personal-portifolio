@@ -32,9 +32,9 @@ code {
 }
 
 p {
-  line-height: 30px;
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New";
+  line-height: 40px;
+  font-family: 'Poppins', sans-serif;
 }
 h1, h2{
-  font-family: 'Fjalla One', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }

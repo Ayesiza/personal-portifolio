@@ -35,7 +35,9 @@ const NavBar = () => {
             <img
                src={`${process.env.PUBLIC_URL}/logohawa.png`}
               alt="brand"
+              
             />
+           
           </Link>
         </div>
         <div className="list-wrapper">
