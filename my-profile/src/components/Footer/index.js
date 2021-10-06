@@ -9,8 +9,8 @@ const Footer = () => {
         rel="thhh"
       >
         <img
-          src="https://github.com/DwinaTech/public-images/blob/main/youtube-icon.png?raw=true"
-          alt="Facebook-icon"
+          src={`${process.env.PUBLIC_URL}/youtube.jpg`}
+          alt="Youtube-icon"
           
         />
       </a>
@@ -18,8 +18,8 @@ const Footer = () => {
       
       >
         <img
-          src="https://github.com/DwinaTech/public-images/blob/main/facebook-con.png?raw=true"
-          alt="YouTube-icon"
+          src={`${process.env.PUBLIC_URL}/facebook.png`}
+          alt="facebook-icon"
           
         />
       </a>
@@ -29,13 +29,13 @@ const Footer = () => {
         
       >
         <img
-          src="https://github.com/DwinaTech/public-images/blob/main/linkedin-icon.png?raw=true"
+          src={`${process.env.PUBLIC_URL}/linkedin.jpg`}
           alt="LinkIn-icon"
         />
       </a>
       <a href="https://twitter.com/hawayesiza" target="_blank">
         <img
-          src="https://github.com/DwinaTech/public-images/blob/main/twitter-icon.png?raw=true"
+          src={`${process.env.PUBLIC_URL}/tweeter.png`}
           alt="Twitter-icon"
         />
       </a>
